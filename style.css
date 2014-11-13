@@ -1,12 +1,12 @@
 body {
-	background-color: darkslategrey;
+	background-color: #F7D5B1;
 	font-size: 100%
 }
 
 #title {
-	color: white;
+	color: #E7B2B5;
 	font-size: 1.5em;
-	font-family: sans-serif;
+	font-family:'Pacifico', cursive;
 }
 
 #mainColumn {
@@ -16,8 +16,9 @@ body {
 #nav {
 	width: 20%;
 	float: left;
-	background: lightgrey;
+	background-color: #F7E3CD;
 	padding: 0 .25em;
+	font-family: 'Quicksand', sans-serif;
 }
 #nav h2{
 	font-size:1em;
@@ -25,12 +26,14 @@ body {
 #content {
 	float: left;
 	width: 75%;
-	background-color: white;
+	background-color:#F7E3CD;
 	padding: 1em;
-	font-family: serif;
+	font-family: 'Quicksand', sans-serif;
 }
 #illustration {
 	text-align: center;
 	float: right;
 }
-
+a {
+	color: #B1897F;
+}
